@@ -70,7 +70,7 @@ class _PredictionPageState extends State<PredictionPage>
         TextEditingController ipController =
             TextEditingController(text: '192.168.100.7');
         return AlertDialog(
-          title: const Text("Enter Server IP"),
+          title: const Text("Masukkan IP Server"),
           content: TextField(
             controller: ipController,
             keyboardType: TextInputType.number,
