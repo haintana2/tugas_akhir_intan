@@ -9,8 +9,8 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
 
 # Load LSTM classification model
-classification_model = load_model("models/best_model_from_tuning_e50.h5")
-CLASSES = ['KentangEarlyBlight', 'KentangLateBlight', 'KentangSehat', 'TomatSehat', 'TomatSpiderMite']
+classification_model = load_model(r"D:\5-5-2025\app\models\intanlstm_new.h5")
+CLASSES = ['KentangEarlyBlight', 'KentangLateBlight', 'KentangSehat', 'TomatSehat', 'TomatSpiderMite', 'TomatWhiteFly']
 
 # Initialize Flask app
 app = Flask(__name__)
